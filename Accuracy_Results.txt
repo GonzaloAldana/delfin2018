@@ -1,0 +1,228 @@
+1,000
+<nltk.classify.naivebayes.NaiveBayesClassifier object at 0x000001E07FBDA400>
+True Negatives:  36
+False Positives:  11
+False Negatives:  32
+True Positives:  21
+Accuracy 57.00%
+Presicion 0.66
+<SklearnClassifier(MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True))>
+True Negatives:  34
+False Positives:  13
+False Negatives:  34
+True Positives:  19
+Accuracy 53.00%
+Presicion 0.59
+<SklearnClassifier(BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True))>
+True Negatives:  43
+False Positives:  4
+False Negatives:  44
+True Positives:  9
+Accuracy 52.00%
+Presicion 0.69
+<SklearnClassifier(LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='warn', tol=0.0001, verbose=0,
+                   warm_start=False))>
+True Negatives:  35
+False Positives:  12
+False Negatives:  29
+True Positives:  24
+Accuracy 59.00%
+Presicion 0.67
+<SklearnClassifier(SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.0, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=None, penalty='l2',
+              power_t=0.5, random_state=None, shuffle=True, tol=None,
+              validation_fraction=0.1, verbose=0, warm_start=False))>
+True Negatives:  37
+False Positives:  10
+False Negatives:  29
+True Positives:  24
+Accuracy 61.00%
+Presicion 0.71
+<SklearnClassifier(LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0))>
+True Negatives:  34
+False Positives:  13
+False Negatives:  30
+True Positives:  23
+Accuracy 57.00%
+Presicion 0.64
+
+----------------------------------------------------------------------------------------------------------------------------------------
+3,000
+
+<nltk.classify.naivebayes.NaiveBayesClassifier object at 0x0000022C2A7FA438>
+True Negatives:  123
+False Positives:  33
+False Negatives:  52
+True Positives:  92
+Accuracy 71.67%
+Presicion 0.74
+<SklearnClassifier(MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True))>
+True Negatives:  118
+False Positives:  38
+False Negatives:  47
+True Positives:  97
+Accuracy 71.67%
+Presicion 0.72
+<SklearnClassifier(BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True))>
+True Negatives:  127
+False Positives:  29
+False Negatives:  54
+True Positives:  90
+Accuracy 72.33%
+Presicion 0.76
+<SklearnClassifier(LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='warn', tol=0.0001, verbose=0,
+                   warm_start=False))>
+True Negatives:  115
+False Positives:  41
+False Negatives:  46
+True Positives:  98
+Accuracy 71.00%
+Presicion 0.71
+<SklearnClassifier(SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.0, fit_intercept=True,
+              max_iter=1000, n_iter_no_change=5, n_jobs=None, penalty='l2',
+              power_t=0.5, random_state=None, shuffle=True, tol=None,
+              validation_fraction=0.1, verbose=0, warm_start=False))>
+True Negatives:  115
+False Positives:  41
+False Negatives:  58
+True Positives:  86
+Accuracy 67.00%
+<SklearnClassifier(LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0))>
+True Negatives:  115
+False Positives:  41
+False Negatives:  55
+True Positives:  89
+Presicion 0.68
+
+----------------------------------------------------------------------------------------------------------------------
+
+7,000
+
+<nltk.classify.naivebayes.NaiveBayesClassifier object at 0x0000020DB996A588>
+True Negatives:  265
+False Positives:  82
+False Negatives:  131
+True Positives:  222
+Accuracy 69.57%
+Presicion 0.73
+<SklearnClassifier(MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True))>
+True Negatives:  261
+False Positives:  86
+False Negatives:  127
+True Positives:  226
+Accuracy 69.57%
+Presicion 0.72
+<SklearnClassifier(BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True))>
+True Negatives:  268
+False Positives:  79
+False Negatives:  135
+True Positives:  218
+Accuracy 69.43%
+Presicion 0.73
+<SklearnClassifier(LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='warn', tol=0.0001, verbose=0,
+                   warm_start=False))>
+True Negatives:  260
+False Positives:  87
+False Negatives:  120
+True Positives:  233
+Accuracy 70.43%
+Presicion 0.73
+<SklearnClassifier(SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.0, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=None, penalty='l2',
+              power_t=0.5, random_state=None, shuffle=True, tol=None,
+              validation_fraction=0.1, verbose=0, warm_start=False))>
+True Negatives:  255
+False Positives:  92
+False Negatives:  133
+True Positives:  220
+Accuracy 67.86%
+Presicion 0.71
+<SklearnClassifier(LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0))>
+True Negatives:  253
+False Positives:  94
+False Negatives:  136
+True Positives:  217
+Accuracy 67.14%
+Presicion 0.70
+
+-----------------------------------------------------------------------------------------------------------
+
+10,000
+
+<nltk.classify.naivebayes.NaiveBayesClassifier object at 0x00000204C546A4A8>
+True Negatives:  374
+False Positives:  108
+False Negatives:  175
+True Positives:  343
+Accuracy 71.70%
+Presicion 0.76
+<SklearnClassifier(MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True))>
+True Negatives:  368
+False Positives:  114
+False Negatives:  168
+True Positives:  350
+Accuracy 71.80%
+Presicion 0.75
+<SklearnClassifier(BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True))>
+True Negatives:  380
+False Positives:  102
+False Negatives:  182
+True Positives:  336
+Accuracy 71.60%
+Presicion 0.77
+<SklearnClassifier(LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='warn', tol=0.0001, verbose=0,
+                   warm_start=False))>
+True Negatives:  357
+False Positives:  125
+False Negatives:  172
+True Positives:  346
+Accuracy 70.30%
+Presicion 0.73
+<SklearnClassifier(SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.0, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=None, penalty='l2',
+              power_t=0.5, random_state=None, shuffle=True, tol=None,
+              validation_fraction=0.1, verbose=0, warm_start=False))>
+True Negatives:  362
+False Positives:  120
+False Negatives:  177
+True Positives:  341
+Accuracy 70.30%
+Presicion 0.74
+<SklearnClassifier(LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0))>
+True Negatives:  362
+False Positives:  120
+False Negatives:  181
+True Positives:  337
+Accuracy 69.90%
+Presicion 0.74
